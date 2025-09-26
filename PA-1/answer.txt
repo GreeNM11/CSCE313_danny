@@ -1,5 +1,29 @@
+1-2. File Size vs Time Plot
+
+Size (MB)
+^
+|     /
+|    /
+|   /
+|  /
+| /
+|/
+|-------------> Time (s)
+
+File size is: 282335 bytes (0.28 MB)
+Time taken to transfer 282335 bytes: 0.145522 seconds
+
+File size is: 10485760 bytes (10 MB)
+Time taken to transfer 10485760 bytes: 5.048142 seconds
+
+Trend that the time takes to transfer goes up with the size.
+Reason is due to the read/write speed being constant while the load it has to complete raises,
+so it takes longer to do more at the same transfer pace.
+
+3.3 7T)
+
 File Size: 104857600 bytes (100 MB)
 Time taken to transfer 104857600 bytes: 22.100918 seconds
 
 My answer: the bottleneck must be the buffer capacity because since the file is 
-so large, it has to do many many iterations of a small percentage of the file size.
+so large, it has to do many iterations of a small percentage of the file size.
