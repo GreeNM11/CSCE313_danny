@@ -1,0 +1,5 @@
+File Size: 104857600 bytes (100 MB)
+Time taken to transfer 104857600 bytes: 22.100918 seconds
+
+My answer: the bottleneck must be the buffer capacity because since the file is 
+so large, it has to do many many iterations of a small percentage of the file size.
